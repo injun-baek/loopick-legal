@@ -3,13 +3,12 @@ layout: default
 title: Loopick — Privacy Policy
 ---
 
-
-> ⚠️ **이 문서는 초안입니다.** 출시 전 [수정 필요] 마커가 붙은 항목과 실제 앱 동작이 일치하는지 검토 후 외부 호스팅하세요.
+# Privacy Policy / 개인정보 처리방침
 
 **앱 이름:** Loopick
-**최종 업데이트:** 2026-05-07 [수정 필요: 호스팅 시점 날짜]
-**개발자:** [수정 필요: 개인 또는 팀 이름]
-**연락처:** [수정 필요: 이메일 주소]
+**최종 업데이트:** 2026-05-08
+**개발자:** Injun Baek
+**연락처:** jjune1416@gmail.com
 
 ---
 
@@ -39,13 +38,6 @@ Loopick(이하 "앱")은 사용자가 입력한 YouTube 영상 URL을 임베드 
 - 연락처, 사진, 마이크, 카메라 데이터
 - 광고 ID
 
-### 2-3. 로그인 기능 사용 시 (해당되는 경우만) [수정 필요: 로그인 기능 출시 여부에 따라 본 절 삭제 또는 유지]
-
-- Google 로그인 사용 시: Google 계정의 이메일 주소
-- 이메일 OTP 로그인 사용 시: 사용자가 입력한 이메일 주소
-
-이 정보는 [수정 필요: 인증 백엔드 사용 여부, 저장 위치, 보관 기간 명시]합니다.
-
 ## 3. 제3자 서비스
 
 앱은 다음 외부 서비스를 사용합니다.
@@ -57,11 +49,9 @@ YouTube 영상 재생을 위해 Google의 YouTube IFrame Player를 임베드합�
 - YouTube 정책: https://policies.google.com/privacy
 - YouTube 약관: https://www.youtube.com/t/terms
 
-### 3-2. [수정 필요: Firebase Crashlytics / Analytics 등 사용 시 명시]
+### 3-2. Firebase Analytics
 
-Firebase Crashlytics 또는 Analytics를 사용한다면 수집 항목(crash report, 사용 통계 등)과 Google Firebase 정책 링크를 추가해야 합니다.
-
-### 3-3. [수정 필요: Firebase App Distribution 은 베타 테스터 배포용이라 출시 빌드와 무관 — 본 절에서 빼도 무방]
+Firebase Analytics를 사용하여 익명 사용 통계(화면 조회, 기능 사용 빈도)를 수집합니다. Google Firebase의 처리방침을 따릅니다: https://firebase.google.com/support/privacy
 
 ## 4. 정보 사용 목적
 
@@ -69,7 +59,6 @@ Firebase Crashlytics 또는 Analytics를 사용한다면 수집 항목(crash rep
 
 - 앱 핵심 기능 제공 (영상 재생, 구간 반복, 학습 기록 표시)
 - 사용자 환경 설정 유지
-- [수정 필요: 로그인 기능 사용 시] 사용자 인증 및 계정 식별
 
 수집한 정보는 광고 노출, 마케팅, 외부 제공에 사용되지 않습니다.
 
@@ -85,13 +74,10 @@ Firebase Crashlytics 또는 Analytics를 사용한다면 수집 항목(crash rep
 ## 6. 데이터 보관 및 삭제
 
 - 모든 로컬 데이터는 사용자가 앱을 삭제하면 함께 삭제됩니다.
-- 앱 내 **설정 → 모든 데이터 삭제** 메뉴로 언제든 직접 삭제할 수 있습니다.
-- [수정 필요: 외부 백엔드 사용 시] 계정 삭제 요청은 [수정 필요: 이메일] 로 보내주시면 영업일 기준 N일 이내 처리됩니다.
 
 ## 7. 보안
 
 - 로컬 데이터는 Android/iOS 운영체제의 앱 샌드박스 보호를 받습니다.
-- [수정 필요: 인증 토큰 사용 시] 토큰은 secure storage에 저장됩니다.
 - 사용자가 디바이스 보안(잠금, 암호화)을 설정하시는 것을 권장합니다.
 
 ## 8. 어린이 개인정보
@@ -103,8 +89,7 @@ Firebase Crashlytics 또는 Analytics를 사용한다면 수집 항목(crash rep
 사용자는 다음 권리를 가집니다.
 
 - 본인이 입력한 데이터 열람 (앱 내에서 직접 가능)
-- 데이터 삭제 (앱 내 메뉴 또는 앱 자체 삭제)
-- [수정 필요: 외부 백엔드 사용 시] 데이터 사본 요청, 처리 정지 요청 — [수정 필요: 이메일]
+- 데이터 삭제 (앱 자체 삭제)
 
 ## 10. 변경 고지
 
@@ -114,15 +99,4 @@ Firebase Crashlytics 또는 Analytics를 사용한다면 수집 항목(crash rep
 
 개인정보 처리방침에 관한 문의는 다음으로 보내주세요.
 
-- 이메일: [수정 필요: 연락 가능한 이메일 주소]
-
----
-
-> **출시 전 체크리스트**
-> - [ ] 모든 [수정 필요] 마커 처리
-> - [ ] 실제 수집 항목과 2-1 ~ 2-3 절 내용 일치 확인
-> - [ ] Firebase Crashlytics/Analytics 사용 여부 반영 (3-2 절)
-> - [ ] 로그인 기능 출시 여부에 따라 2-3 절 / 5번 / 9번 정리
-> - [ ] 연락처 이메일이 실제 수신 가능한지 확인
-> - [ ] GitHub Pages 등에 호스팅 → URL 확정
-> - [ ] 설정 화면 + Play Console Data Safety 폼에 동일 URL 등록
+- 이메일: jjune1416@gmail.com
